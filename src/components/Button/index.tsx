@@ -5,7 +5,7 @@ interface IButton {
 }
 const Button = ({ children, onClick }: IButton) => {
   return (
-    <button className="rounded-md bg-dark-brown text-white px-8 py-3" onClick={onClick}>
+    <button className="rounded-md bg-dark-brown text-white px-8 py-1" onClick={onClick}>
       {children}
     </button>
   );
